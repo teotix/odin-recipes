@@ -1,21 +1,71 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: palevioletred;
+}
+
 .site-header {
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 text-align: center;
 font-size: 50px;
-color: darkred;
-border: 5px solid red;
+color: papayawhip;
+margin: 0;
+text-align: left;
+}
 
+.navigation {
+    margin-left: auto;
 }
 
 .menu {
 text-decoration: none;
 font-size: large;
-color: purple;
+color: papayawhip;
 font-weight: 600;
-background-color: blanchedalmond;
+margin-right: 10px;
+padding: 15px;
 }
 
 .list {
     list-style-type: none;
-    padding: 100px;
+    display: inline-flex;
+}
+
+.menu:hover {
+    text-decoration: underline;
+}
+
+.top {
+    display: flex;
+    background-color:  rgb(187, 89, 122);
+}
+
+.item {
+    margin: 20px;
+    margin-top: 200px;
+    display: inline-flex;
+    border: 1px solid black;
+    box-shadow: 1px 2px 10px;
+    background-color: wheat;
+    width: 465px;
+    height: 190px;
+    word-wrap: break-word;
+    word-break: keep-all;
+}
+
+.inside button {
+justify-content: center;
+margin-left: 60px;
+background-color: rgb(184, 184, 11);
+}
+
+.inside p {
+    padding: 15px;
+    margin-top: -10px;
+}
+
+.inside h3 {
+    text-align: center;
 }

@@ -2,15 +2,55 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Odin Recipes website</title>
   </head>
   <body>
-    <h1 class="site-header">Odin Recipes</h1>
-    <ul class="list">
-      <li><a class="first-a menu" href="recipes/burger.html">Burger</a></li>
-      <li><a class="second-a menu" href="recipes/lasagna.html">Lasagna</a></li>
-      <li><a class="third-a menu" href="recipes/pizza.html">Pizza</a></li>
-    </ul>
+    <div class="top">
+      <h1 class="site-header">Odin Recipes</h1>
+      <div class="navigation">
+        <ul class="list">
+          <li>
+            <a class="first-a menu" href="recipes/burger.html"
+              >Burger</a
+            >
+          </li>
+          <li>
+            <a class="second-a menu" href="recipes/lasagna.html">Lasagna</a>
+          </li>
+          <li><a class="third-a menu" href="recipes/pizza.html">Pizza</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="recipes">
+      <div class="item">
+        <img width="60%" height="100%" src="images/burger.jpg" alt="Burger"></img>
+        <div class="inside">
+        <h3>Burger</h3>
+        <p>A delicious homemade burger</p>
+        <a href="recipes/burger.html">
+          <button type="button">View Recipe</button>
+        </a>      </div>
+      </div>
+      <div class="item">
+        <img width="60%" height="100%" src="images/pizza.jpg" alt="Burger"></img>
+        <div class="inside">
+        <h3>Pizza</h3>
+        <p>A delicious homemade pizza</p>
+        <a href="recipes/pizza.html">
+          <button type="button">View Recipe</button>
+        </a>
+      </div>
+      </div>
+      <div class="item">
+        <img width="60%" height="100%" src="images/lasagna.jpg" alt="Burger"></img>
+        <div class="inside">
+        <h3>Lasagna</h3>
+        <p>A delicious homemade lasagna</p>
+        <a href="recipes/lasagna.html">
+          <button type="button">View Recipe</button>
+        </a>      </div>
+      </div>
+    </div>
   </body>
 </html>
